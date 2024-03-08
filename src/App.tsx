@@ -8,12 +8,14 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div className="container mx-auto">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/detail/:id" element={<Detail />} />
-        </Routes>
-      </div>
+      <main className='bg-gray-100 dark:bg-gray-900 min-h-[100vh] w-full'>
+        <div className="container mx-auto">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/detail/:userId" element={<Detail />} />
+          </Routes>
+        </div>
+      </main>
     </Router>)
 }
 
