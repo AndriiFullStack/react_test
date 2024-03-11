@@ -89,6 +89,25 @@ const Home = () => {
 
 	return (
 		<div className='p-6'>
+			<h1 className='text-black text-center text-[30px] font-bold dark:text-white mb-4'>please contact me with:</h1>
+			<div className='max-w-[600px] mx-auto flex flex-col gap-2 divide-y-2 divide-gray-700 dark:divide-gray-300'>
+                <div className='flex justify-between px-2 text-gray-900 dark:text-gray-300'>
+                  <p>telegram</p>
+                  <p className='dark:text-white text-black'>https://t.me/awesomedev00</p>
+                </div>
+                <div className='flex justify-between px-2 text-gray-900 dark:text-gray-300'>
+                  <p>email</p>
+                  <p className='dark:text-white text-black'>awesomedev08@gmail.com</p>
+                </div>
+                <div className='flex justify-between px-2 text-gray-900 dark:text-gray-300'>
+                  <p>skype</p>
+                  <p className='dark:text-white text-black'>live:.cid.1a09a6e002cc21c8</p>
+                </div>
+                <div className='flex justify-between px-2 text-gray-900 dark:text-gray-300'>
+                  <p>whatsapp</p>
+                  <p className='dark:text-white text-black'>+1 312 620 5199</p>
+                </div>
+              </div>
 			<div className='py-6 flex flex-row justify-end items-center'>
 				<label htmlFor="searchText" className='pe-3 dark:text-white'>Search</label>
 				<input
